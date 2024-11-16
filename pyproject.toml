@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "graph_similarity_clustering"
+version = "0.1.0"
+description = ""
+authors = ["agudek <agudek95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+networkx = {extras = ["default"], version = "^3.4.2"}
+netrd = "^0.3.0"
+neo4j = "^5.26.0"
+scikit-learn = "^1.5.2"
+tomli = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
